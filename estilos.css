@@ -47,6 +47,7 @@ h6 {
   font-weight: bold;
   color: #ee741a;
 }
+
 h7 {
   font-family: "Amatic SC", cursive;
   font-size: 2rem;
@@ -144,17 +145,36 @@ input {
   z-index: -1;
   position: relative;
 }
+
 #verde {
   background-color: #1e8b71;
   height: 40px;
   position: relative;
 }
 
-
 header{
   background-color: #fff;
+  position: relative;
 }
 
 main{
   margin: 100px;
+}
+
+
+.card{
+  border-radius: 10px;
+}
+.card img{
+  width: 40%;
+}
+
+.card button{
+border:0;
+}
+
+.card a{
+  text-decoration: none;
+  color: #ee741a;
+  font-weight: 500;
 }
