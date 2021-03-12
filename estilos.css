@@ -108,6 +108,7 @@ form .btn {
   background-repeat: no-repeat;
 }
 
+
 .nav li a {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -122,6 +123,10 @@ form .btn {
   background-color: var(--naranja)
 }
 
+main>div:nth-of-type(1){
+  margin-top: 5rem;
+}
+
 footer {
   background-color: var(--verde);
 }
@@ -133,11 +138,10 @@ footer p {
 .logo2 {
   width: 200px;
   height: 50px;
-  background-image: url("./Assets/logo.png");
+  background-image: url("./Assets/logonegativo.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  filter: sepia();
 }
 input,
 textarea {
@@ -168,17 +172,30 @@ header{
 
 header>div:nth-of-type(2){
   background-color: var(--verdelimon);
-  height: 150px;
+  height: 100px;
 }
 header>div:nth-of-type(2)>div:nth-of-type(1){
   background-image: url("./Assets/delivery.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 10% 0;
+  background-size: contain;
+  height: 40px;
+}
+header>div:nth-of-type(2)>div:nth-of-type(2){
+  background-image: url("./Assets/wsp.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 0;
+  background-size: contain;
+  height: 40px;
+}
+header>div:nth-of-type(2)>div:nth-of-type(1){
+  background-image: url("./Assets/delivery.svg");
+  background-repeat: no-repeat;
+  background-position: 10% 0;
+  background-size: contain;
+  height: 40px;
 }
 
-main{
-  margin-top: 250px;
-}
 
 .card{
   border-radius: 10px;
@@ -205,3 +222,11 @@ border:0;
   background-position: 0 0;
   background-size: cover;
 }
+
+
+small{
+  color: var(--blanco);
+}
+
+
+/* Sesión */
